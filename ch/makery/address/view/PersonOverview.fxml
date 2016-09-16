@@ -53,9 +53,9 @@
                         <Label fx:id="birthdayLabel" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="5" />
                      </children>
                   </GridPane>
-                  <Button layoutX="192.0" layoutY="260.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="29.0" prefWidth="66.0" text="New..." AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="192.0" AnchorPane.rightAnchor="158.0" />
-                  <Button layoutX="265.0" layoutY="260.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="66.0" text="Edit..." AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="264.0" AnchorPane.rightAnchor="86.0" />
-                  <Button layoutX="335.0" layoutY="248.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="77.0" text="Delete" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="335.0" AnchorPane.rightAnchor="4.0" />
+                  <Button layoutX="192.0" layoutY="260.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#handleNewPerson" prefHeight="29.0" prefWidth="66.0" text="New..." AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="192.0" AnchorPane.rightAnchor="158.0" />
+                  <Button layoutX="265.0" layoutY="260.0" mnemonicParsing="false" onAction="#handleEditPerson" prefHeight="28.0" prefWidth="66.0" text="Edit..." AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="264.0" AnchorPane.rightAnchor="86.0" />
+                  <Button layoutX="335.0" layoutY="248.0" mnemonicParsing="false" onAction="#handleDeletePerson" prefHeight="28.0" prefWidth="77.0" text="Delete" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="335.0" AnchorPane.rightAnchor="4.0" />
                </children>
             </AnchorPane>
         </items>
