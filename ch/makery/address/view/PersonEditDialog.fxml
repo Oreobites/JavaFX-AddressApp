@@ -5,7 +5,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.makery.address.view.PersonEditDialogController">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" styleClass="background" stylesheets="@DarkTheme.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.makery.address.view.PersonEditDialogController">
    <children>
       <GridPane layoutX="14.0" layoutY="14.0" prefHeight="377.0" prefWidth="573.0" AnchorPane.bottomAnchor="100.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="15.0">
         <columnConstraints>
@@ -35,7 +35,7 @@
             <TextField fx:id="birthdayField" GridPane.columnIndex="1" GridPane.rowIndex="5" />
          </children>
       </GridPane>
-      <Button layoutX="428.0" layoutY="357.0" mnemonicParsing="false" onAction="#handleOK" prefHeight="30.0" prefWidth="80.0" text="OK" AnchorPane.bottomAnchor="15.0" AnchorPane.rightAnchor="105.0" />
-      <Button layoutX="508.0" layoutY="357.0" mnemonicParsing="false" onAction="#handleCancel" prefHeight="30.0" prefWidth="80.0" text="Cancel" AnchorPane.bottomAnchor="15.0" AnchorPane.rightAnchor="15.0" />
+      <Button defaultButton="true" layoutX="428.0" layoutY="357.0" mnemonicParsing="false" onAction="#handleOK" prefHeight="30.0" prefWidth="100.0" text="OK" AnchorPane.bottomAnchor="15.0" AnchorPane.rightAnchor="125.0" />
+      <Button layoutX="508.0" layoutY="357.0" mnemonicParsing="false" onAction="#handleCancel" prefHeight="33.0" prefWidth="100.0" text="Cancel" AnchorPane.bottomAnchor="15.0" AnchorPane.rightAnchor="15.0" />
    </children>
 </AnchorPane>

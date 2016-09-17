@@ -35,6 +35,7 @@ public class PersonEditDialogController {
 	
 	/*
 	 * Sets the stage of this dialog.
+	 * It is used to close the dialogStage.
 	 * @param dialogStage
 	 */
 	public void setDialogStage(Stage dialogStage) {
